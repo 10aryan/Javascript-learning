@@ -49,4 +49,27 @@ console.log(typeof heros );
 console.log(typeof myObj );
 console.log(typeof muFunction );
 
+// Memory
 
+// Stack (Permitive) , Heap (Non- Primitive)
+
+let myYoutubename = "aryan"
+
+let anotherName = myYoutubename
+anotherName = "aryan singh"
+
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let user1 = {
+    emai: "user.gmail.com",
+    upi: "user@ybl"
+}
+
+let user2 = user1
+
+user2.emai = "user2@gmail.com"
+
+console.log(user1);
+console.log(user2);
